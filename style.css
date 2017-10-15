@@ -97,12 +97,11 @@ Hello I'm
 .heading-line{
     border-bottom: 2px solid lightgray;
     line-height: 0;
-    text-align: center;
-     
+    text-align: center;    
 }
 .about{
     background: #e5e2d3;
-    display: inline-block;
+    display: inline;
     padding: 0 15px;
 }
 .row{
@@ -138,7 +137,7 @@ Hello I'm
     font-weight: bold;
 }
 .games-conteiner{
-    back-groundcolor: #e5e2d3;
+    background-color: #e5e2d3;
     color: #e7624d;
 }
 .score{
@@ -165,8 +164,55 @@ Hello I'm
     background: url(img/bg.svg) no-repeat;
     background-size: cover;
 }
-hole {
+.hole {
     flex: 1 0 33.33%;
     overflow: hidden;
     position: relative;
+}
+.main-footer {
+    background-color: #2d4751;
+}
+.main-footer *{
+    color: white;
+
+}
+.main-footer .col-heading{
+    text-decoration: none;
+    border-color:  #fff;
+}
+.main-footer address{
+    line-height:  1.6rem;
+}
+.form-wrapper{
+    display: flex;
+}
+.item-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+.address1 a{
+    display: block;
+
+}
+p {
+    display: block;
+
+} 
+.form-btn{
+    padding: 5px 20px;
+    margin-top: 5px;
+    background-color: rgba(232, 99, 78, 1);
+    align-self: flex-end;
+}
+.item-wrapper input{
+    padding: 5px 15px;
+}
+.user-from{
+    text-align: right;
+}
+
+.form-item{
+    color: black;
 }
