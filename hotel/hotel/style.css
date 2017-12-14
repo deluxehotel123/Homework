@@ -1,0 +1,132 @@
+/*Base element style*/
+
+a{
+	color: white;
+	text-decoration: none;
+}
+body{
+	font-family: 'Libre Baskerville', serif;
+}
+
+.main-header{
+    background-color: #646464;
+    
+}
+.parallax-section img{
+	height: 100px;
+	width: 100px;
+}
+
+
+.main-wrapper{
+    width: 80%;
+    margin:0 auto;
+}
+
+.header-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:20px 0;
+}
+
+.first-nav a{
+	margin-right: 20px;
+	font-weight: bold;
+}
+
+.first-nav a:last-child{
+	margin-right: 0;
+}
+.first-nav a:hover{
+	color: lightgray;
+
+}
+.logo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+}
+.logo span{
+	font-size: 36px;
+}
+
+/**main**/
+.map{
+	width: 100%;
+	height: 400px;
+}
+
+
+/*footer*/
+footer{
+	background-color: #646464;
+	height: 100%;
+	width: 100%;
+}
+.main-footer{	
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	color: white;
+	padding: 20px 0;
+}
+
+.contact-wrapper{
+	flex: 1 0 400px;
+	max-width: 450px;
+}
+.section-heading{
+	border-bottom: 1px solid white;
+}
+
+.main-footer .section-heading{
+ 	font-size: 14px;
+}
+
+.main-footer i{
+	font-size: 34px;
+}
+/*form style*/
+.contact-form{
+	padding: 15px;
+	border: none;
+	min-width: 300px;
+	background-color: #7a7a7a;
+}
+
+
+.button1{    
+	width: 60%; 
+    height: 40px;
+   display: block;
+   background-color: black;
+    border: none;
+    color: white;
+    margin: 0 auto;
+}
+
+.contact-input{
+	width: 80%;
+	display: block;
+	padding: 10px 5px;
+	margin: 5px auto;
+
+}
+.contact{
+    display: block;
+    width: 100%
+}
+.button1:hover{
+	background-color: lightgray;
+	color: black;
+
+}
+.contact-form h3{
+	text-align: center;
+}
+.find:hover{
+	color: lightgray;
+
+}

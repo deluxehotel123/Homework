@@ -1,0 +1,424 @@
+/*Base element style*/
+*{
+	margin: 0 0;
+	padding: 0 0;
+}
+
+a{
+	color: rgba(225, 225, 225, 0.9);;
+	text-decoration: none;
+}
+body{
+	font-family: 'Libre Baskerville', serif;
+}
+
+.main-header{
+    background-color: #282e34;
+}
+
+.main-wrapper{
+    width: 80%;
+    margin:0 auto;
+}
+
+.header-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:20px 0;
+}
+
+.first-nav a{
+	margin-right: 20px;
+	font-weight: bold;
+}
+
+.first-nav a:last-child{
+	margin-right: 0;
+}
+.first-nav a:hover{
+	color: white;
+}
+.logo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+}
+
+.span{
+	margin-right: 170px;
+	font-size: 30px;
+}
+.span1{
+	font-size: 30px;
+}
+
+/**main**/
+main{
+	height: 100%;
+	width: 100%;
+}
+.logo-main1{
+ text-align: center;
+ width: 500px;
+ background-color: black;
+ color: white;
+ padding: 15px;
+}
+.logo-main1 span{
+	font-size: 25px;
+}
+.logo-main2 span{
+	letter-spacing: 5px;
+}
+
+.find-us{
+	text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #363636;
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.map{
+	width: 100%;
+	height: 400px;
+}
+.parallax-section{
+	opacity: 0.9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 700px;
+	background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/VkvG-2Ccliksa7zxw/ultra-hd-4k-illuminated-las-vegas-bellagio-hotel-casino-night-musical-fountains-editorial-footage-news-documentary_ru7bqmxb__F0000.png");
+
+}
+
+.main-div{
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-foto{
+	opacity: 0.9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 500px;
+	background-image: url("https://www.wakatobi.com/fileadmin/wakatobi/Images/Dive_Yacht/Cabin_types/tab-superlux.jpg");
+}
+.us-span{
+	margin-right: 10px
+}
+.information{
+	min-height: 400px;
+}
+.about-us h3{
+	text-align: center;
+}
+.about-us{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+
+/*footer*/
+footer{
+	background-color: #282e34;
+	height: 100%;
+	width: 100%;
+}
+.main-footer{	
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	color: rgba(225, 225, 225, 0.9);;
+	padding: 20px 0;
+}
+
+.contact-wrapper{
+	flex: 1 0 400px;
+	max-width: 450px;
+}
+.section-heading{
+	border-bottom: 1px solid white;
+}
+
+.main-footer .section-heading{
+ 	font-size: 14px;
+}
+
+.main-footer i{
+	font-size: 34px;
+}
+/*form style*/
+.contact-form{
+	padding: 15px;
+	border: none;
+	min-width: 300px;
+	background-color: #2c333a;
+}
+
+
+.button1{    
+	width: 60%; 
+    height: 40px;
+   display: block;
+   background-color: black;
+    border: none;
+    color: white;
+    margin: 0 auto;
+}
+
+.contact-input{
+	width: 80%;
+	display: block;
+	padding: 10px 5px;
+	margin: 5px auto;
+
+}
+.contact{
+    display: block;
+    width: 100%
+}
+.button1:hover{
+	background-color: lightgray;
+	color: black;
+
+}
+.contact-form h3{
+	text-align: center;
+}
+.find:hover{
+	color: lightgray;
+
+}
+/* benefid section */
+.categories{
+	padding: 20px 0;
+}
+
+.item-wrapper{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+	flex-wrap: wrap;
+}
+.head-in-div{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	color: #363636;
+	font-weight: normal;
+}
+.item i{
+	border: 1px solid #000;
+	padding: 30px;
+	border-radius: 50%;
+	font-size: 40px;
+}
+.item{
+	margin-bottom: 15px;
+	color: #363636;
+	flex: 1 0 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.item h4{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+.section-foto1{
+	opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 500px;
+	background-image: url("http://www.wallpapers13.com/wp-content/uploads/2016/08/Bellagio-Fountains-at-night-Las-Vegas-Nevada-USA-Desktop-Wallpaper-HD-1920x1200-915x515.jpg");
+}
+.item i{
+	margin-bottom: 20px;
+}
+/*rooms*/
+.rooms{
+    height: 1200px;
+    width: 100%; 
+}
+.row2{
+	display: flex;
+}
+.col li{
+	margin: 10px;
+	text-align: left;
+}
+.imgs{
+	margin: 30px;
+	height: 300px;
+	width: 500px;
+	
+} 
+.imgs img{
+	height: 300px;
+	width: 500px;
+}
+
+.numbers{
+	padding: 10px;
+	background-color: #f3f3f3;
+	height: 280px;
+	width: 500px;
+	margin: 30px;
+}
+#price-span{
+	padding-left: 10px; 
+    font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+}
+/*reserve*/
+/* 6b2c5be8-a62d6812-e09c10bb-a2ac4e19-57344f95-5041a716-0e92a19e-d1ce5bb8-40bf6728-e7e4caa9-081b2f8c-59ca60b9-47e6f048-d3033fc2-4d02e43a-5f107787-6b0b2181-d90ff3ba-17724170-552d52f0-c9fa7bfb-6a53df8d-17583d96-acc200e8-d343e949-a7bd5d31-465235c5-1c388a93-5b5e1a13-b615e60f-cdb64060-2eef036e-ebf6d78b-0097160b-9ad59d0e-5a3842ec-6e19ec02-6c514483-7aaa33fa-63cd6d5c-8600aba3-7e057be9-5c418784-a6386914-1335ff84-2cc81b9e-9f824d97-8931ef7e-ef723ffb-93f359f5-ba2dcb5a (93, 168) */
+.widget-daterange {
+    background-color: #fff;
+    display: none;
+    font-size: 14px;
+    box-sizing: border-box;
+    top: 0px;
+    text-align: center;
+    transform: translateZ(0px);
+    will-change: left,right,top;
+    z-index: 60;
+}
+
+/* 6b2c5be8-a62d6812-e09c10bb-a2ac4e19-57344f95-5041a716-0e92a19e-d1ce5bb8-40bf6728-e7e4caa9-081b2f8c-59ca60b9-47e6f048-d3033fc2-4d02e43a-5f107787-6b0b2181-d90ff3ba-17724170-552d52f0-c9fa7bfb-6a53df8d-17583d96-acc200e8-d343e949-a7bd5d31-465235c5-1c388a93-5b5e1a13-b615e60f-cdb64060-2eef036e-ebf6d78b-0097160b-9ad59d0e-5a3842ec-6e19ec02-6c514483-7aaa33fa-63cd6d5c-8600aba3-7e057be9-5c418784-a6386914-1335ff84-2cc81b9e-9f824d97-8931ef7e-ef723ffb-93f359f5-ba2dcb5a (93, 1283) */
+.widget-daterange .widget-daterange-cont {
+    -webkit-overflow-scrolling: touch;
+}
+
+/* 6b2c5be8-a62d6812-e09c10bb-a2ac4e19-57344f95-5041a716-0e92a19e-d1ce5bb8-40bf6728-e7e4caa9-081b2f8c-59ca60b9-47e6f048-d3033fc2-4d02e43a-5f107787-6b0b2181-d90ff3ba-17724170-552d52f0-c9fa7bfb-6a53df8d-17583d96-acc200e8-d343e949-a7bd5d31-465235c5-1c388a93-5b5e1a13-b615e60f-cdb64060-2eef036e-ebf6d78b-0097160b-9ad59d0e-5a3842ec-6e19ec02-6c514483-7aaa33fa-63cd6d5c-8600aba3-7e057be9-5c418784-a6386914-1335ff84-2cc81b9e-9f824d97-8931ef7e-ef723ffb-93f359f5-ba2dcb5a (93, 10544) */
+/*@media all and (min-width:600px)*/
+.widget-daterange .widget-daterange-cont {
+}
+
+#ui-datepicker-div{
+	background-color: yellow;
+}
+.reserved-form{
+	height: 300px;
+	width: 100%;
+	border: 1px solid white;
+	padding-top: 500px; 
+}
+.reserve-item{
+	background-image: url("https://www.lareserve-paris.com/files/2614/2289/2437/La-Reserve-Paris-Reception-T1.jpg");
+	height: 800px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.button-reserve{
+	border: 1px solid white;
+	background-color: #32393f;
+	height: 50px;
+	width: 100px;
+}
+.button-reserve a{
+    font-size: 16px;
+}
+
+
+/* about-section */
+.about-section{
+	background: #282e34;
+	color: rgba(225, 225, 225, 0.9);
+	padding: 40px 0;
+	font-weight: 300;
+}
+
+.about-section .head-in-div {
+	margin-bottom: 20px;
+	color: rgba(225, 225, 225, 0.9);
+}
+
+.subheading{
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 4px;
+	font-weight: 300;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col +.col{
+	margin-left: 20px;
+}
+
+.col {
+	flex: 1 0 300px;
+    color: #777;
+    font-size: 17px;
+    line-height: 1.3em;
+	text-align: center;
+
+}
+
+/*Services*/
+.img-wrapper{
+	height: 350px;
+	position:relative;
+}
+
+.details-wrapper{
+	background-color: rgb(57, 94, 229);
+	position:absolute;
+	right:0;
+	top: 0;
+	width: 130px;
+	height: 260px;
+	transition: all 200ms ease-in-out;
+	padding: 20px;
+}
+
+#service h3{
+	margin-bottom: 15px;
+}
+
+.details-wrapper p{
+	color:white;
+	font-size: 14px;
+}
+
+.img-wrapper:hover .details-wrapper{
+   width: 50%;
+   opacity: 0.8;
+   transition: all 200ms ease-in-out
+}
+
+.details-wrapper i{
+   color: white;
+   font-size: 23px;
+   padding: 20px;
+}
+
+.details-btn{
+   display:block;
+   background-color:transparent;
+   border: 1px solid white;
+   color:white;
+   opacity: 0;
+   margin: 0 auto;
+   padding: 15px;
+   margin-top: 50px;
+}
+
+.img-wrapper:hover .details-btn{
+   opacity: 1;
+   transition: opacity 200ms ease-in-out;
+}

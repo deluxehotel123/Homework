@@ -1,0 +1,209 @@
+/*Base element style*/
+*{
+	margin: 0 0;
+	padding: 0 0;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+body{
+	font-family: 'Libre Baskerville', serif;
+}
+
+.main-header{
+    background-color: #646464;
+}
+
+
+.main-wrapper{
+    width: 80%;
+    margin:0 auto;
+}
+
+.header-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:20px 0;
+}
+
+.first-nav a{
+	margin-right: 20px;
+	font-weight: bold;
+}
+
+.first-nav a:last-child{
+	margin-right: 0;
+}
+.first-nav a:hover{
+	color: lightgray;
+
+}
+.logo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+}
+.span1{
+	font-size: 30px;
+}
+
+/**main**/
+main{
+	height: 100%;
+	width: 100%;
+}
+.logo-main1{
+ text-align: center;
+ width: 500px;
+ background-color: black;
+ color: white;
+ padding: 15px;
+}
+.logo-main1 span{
+	font-size: 25px;
+}
+
+.map{
+	width: 100%;
+	height: 400px;
+}
+.parallax-section{
+	opacity: 0.9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 700px;
+	background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/VkvG-2Ccliksa7zxw/ultra-hd-4k-illuminated-las-vegas-bellagio-hotel-casino-night-musical-fountains-editorial-footage-news-documentary_ru7bqmxb__F0000.png");
+
+}
+
+.main-div{
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.information{
+	min-height: 400px;
+}
+.about-us h3{
+	text-align: center;
+}
+.about-us{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+
+/*footer*/
+footer{
+	background-color: #646464;
+	height: 100%;
+	width: 100%;
+}
+.main-footer{	
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	color: white;
+	padding: 20px 0;
+}
+
+.contact-wrapper{
+	flex: 1 0 400px;
+	max-width: 450px;
+}
+.section-heading{
+	border-bottom: 1px solid white;
+}
+
+.main-footer .section-heading{
+ 	font-size: 14px;
+}
+
+.main-footer i{
+	font-size: 34px;
+}
+/*form style*/
+.contact-form{
+	padding: 15px;
+	border: none;
+	min-width: 300px;
+	background-color: #7a7a7a;
+}
+
+
+.button1{    
+	width: 60%; 
+    height: 40px;
+   display: block;
+   background-color: black;
+    border: none;
+    color: white;
+    margin: 0 auto;
+}
+
+.contact-input{
+	width: 80%;
+	display: block;
+	padding: 10px 5px;
+	margin: 5px auto;
+
+}
+.contact{
+    display: block;
+    width: 100%
+}
+.button1:hover{
+	background-color: lightgray;
+	color: black;
+
+}
+.contact-form h3{
+	text-align: center;
+}
+.find:hover{
+	color: lightgray;
+
+}
+/* benefid section */
+.categories{
+	padding: 20px 0;
+}
+
+.item-wrapper{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+	flex-wrap: wrap;
+}
+.head-in-div{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	color: #363636;
+}
+.item i{
+	border: 1px solid #000;
+	padding: 30px;
+	border-radius: 50%;
+	font-size: 40px;
+}
+.item{
+	margin-bottom: 15px;
+	color: #363636;
+	flex: 1 0 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.item h4{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+.item i{
+	margin-bottom: 20px;
+}
